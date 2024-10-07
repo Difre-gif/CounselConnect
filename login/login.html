@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <script defer src="login.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="background-overlay"></div>
+        <div class="form-container">
+            <h1>Welcome Back!</h1>
+            <p>Please log in to your account.</p>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="Enter your email" />
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required placeholder="Enter your password" />
+                </div>
+                <button type="submit" class="btn-submit">Log In</button>
+                <div class="forgot-password">
+                    <a href="forgot-password.html">Forgot your password?</a>
+                </div>
+            </form>
+            <div class="social-login">
+                <p>or log in with:</p>
+                <div class="social-buttons">
+                    <button class="btn-social facebook">Facebook</button>
+                    <button class="btn-social google">Google</button>
+                    <button class="btn-social twitter">Twitter</button>
+                </div>
+            </div>
+            <p class="redirect">Don't have an account? <a href="signup.html">Sign up</a></p>
+        </div>
+    </div>
+</body>
+</html>

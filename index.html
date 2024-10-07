@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Advanced Student Counseling Platform</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">CounselConnect</div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to CounselConnect</h1>
+            <p>Your safe space for confidential support and guidance.</p>
+            <a href="login/login.html" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Our Platform</h2>
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-comments"></i>
+                <h3>Anonymous Chat</h3>
+                <p>Engage in confidential conversations without revealing your identity.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-user-shield"></i>
+                <h3>Expert Guidance</h3>
+                <p>Receive support from trained professionals dedicated to your well-being.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-brain"></i>
+                <h3>AI Assistance</h3>
+                <p>Utilize AI technology to ensure you get the right resources when needed.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Counseling Sessions</h3>
+                <p>One-on-one sessions with trained counselors to guide you through challenges.</p>
+            </div>
+            <div class="service-item">
+                <h3>Workshops</h3>
+                <p>Interactive workshops focused on mental health awareness and coping strategies.</p>
+            </div>
+            <div class="service-item">
+                <h3>Online Resources</h3>
+                <p>Access a wealth of online resources, articles, and tools for self-help.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-list">
+            <div class="testimonial">
+                <p>"CounselConnect has changed my life. I feel heard and supported!"</p>
+                <h4>- Sarah M.</h4>
+            </div>
+            <div class="testimonial">
+                <p>"The anonymity of the platform makes it so easy to open up!"</p>
+                <h4>- John D.</h4>
+            </div>
+            <div class="testimonial">
+                <p>"I love the resources available. They help me every day."</p>
+                <h4>- Emily R.</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="response" id="response-message"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 CounselConnect. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="sign.css">
+    <script defer src="sign.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="background-overlay"></div>
+        <div class="form-container">
+            <h1>Create an Account</h1>
+            <p>Join us today and enjoy exclusive benefits!</p>
+            <form id="signup-form">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" required placeholder="Enter your full name" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="Enter your email" />
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required placeholder="Create a password" />
+                    <small id="password-strength" class="password-strength"></small>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" required placeholder="Confirm your password" />
+                </div>
+                <button type="submit" class="btn-submit">Sign Up</button>
+            </form>
+            <div class="social-signup">
+                <p>or sign up with:</p>
+                <div class="social-buttons">
+                    <button class="btn-social facebook">Facebook</button>
+                    <button class="btn-social google">Google</button>
+                    <button class="btn-social twitter">Twitter</button>
+                </div>
+            </div>
+            <p class="redirect">Already have an account? <a href="/login/login.html">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
